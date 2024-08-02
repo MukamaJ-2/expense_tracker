@@ -3,6 +3,7 @@ body {
     background-color: #f0f2f5;
     display: flex;
     justify-content: center;
+        color: grey;
     align-items: center;
     height: 100vh;
     margin: 0;
@@ -19,6 +20,8 @@ body {
 
 h1 {
     text-align: center;
+        color: darkgray;
+
 }
 
 .add-expense {
@@ -31,12 +34,13 @@ h1 {
 .add-expense input, .add-expense select, .add-expense button {
     padding: 10px;
     border: 1px solid #ccc;
+    color: darkgray;
     border-radius: 4px;
 }
 
 .add-expense button {
     background-color: #28a745;
-    color: #fff;
+    color: lightgrey;
     border: none;
     cursor: pointer;
 }
@@ -59,5 +63,6 @@ h1 {
 
 .total-expense {
     text-align: center;
+    color: darkgray;
     margin-top: 20px;
 }
